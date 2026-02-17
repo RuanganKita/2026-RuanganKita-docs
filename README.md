@@ -46,7 +46,7 @@
 ### Architecture
 The application consists of three main services:
 
-- PostgreSQL Database: Stores application data
+- Database: PostgreSQL
 - Backend API: .NET 9.0 Web API
 - Frontend: React + TypeScripts application served by Nginx
 
@@ -155,4 +155,5 @@ The API provides endpoints for authentication, room management, and reservation 
 - `PUT /reservations/status/{id}` - Update reservation status (Admin only)
 - `GET /reservations/history` - Retrieve user's reservation history
 - `GET /reservations/reserved-hours` - Get reserved time slots for a specific room and date
+
 
